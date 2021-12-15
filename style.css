@@ -120,6 +120,7 @@ input:-webkit-autofill:active {
 
 input,
 select {
+    padding-left: .5rem;
     margin-left: 1rem;
     border-style: hidden;
     width: 80%;
@@ -185,16 +186,19 @@ footer a {
 
 @media (min-width: 992px) {
     body {
-        padding: 3rem 20rem 2rem 20rem;
+        position: relative;
+        padding: 10rem 2rem 2rem 2rem;
     }
     h1 {
-        margin-bottom: 5rem;
+        position: absolute;
+        top: 20px;
+        left: 140px;
         font-size: 3.6rem;
     }
     .container {
         display: flex;
         flex-direction: row-reverse;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-bottom: 3rem;
     }
     form {
@@ -205,5 +209,9 @@ footer a {
     }
     h2:nth-last-of-type(1) {
         margin-top: 5rem;
+    }
+    input,
+    select {
+        width: 70%;
     }
 }

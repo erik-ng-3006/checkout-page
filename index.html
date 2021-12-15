@@ -20,16 +20,16 @@
                     <div class="content">
                         <div class="item-name">Vintage Backbag</div>
                         <div class="prices">
-                            <div class="sale-price">$54.99</div>
+                            <div class="sale-price sale-price-1">$54.99</div>
                             <div class="actual-price">$94.99</div>
                         </div>
                         <div class="counter">
-                            <a href="#" class="remove-btn">
+                            <a href="#" id="remove-btn-1">
                                 <span class="material-icons">remove</span>
                             </a>
 
                             <p class="num-1">1</p>
-                            <a href="#" class="add-btn">
+                            <a href="#" id="add-btn-1">
                                 <span class="material-icons add-btn">add</span>
                             </a>
 
@@ -41,18 +41,18 @@
                     <div class="content">
                         <div class="item-name">Levi Shoes</div>
                         <div class="prices">
-                            <div class="sale-price">$74.99</div>
+                            <div class="sale-price sale-price-2">$74.99</div>
                             <div class="actual-price">$124.99</div>
                         </div>
                         <div class="counter">
-                            <a href="#" class="remove-btn">
+                            <a href="#" id="remove-btn-2">
                                 <span class="material-icons">
                                 remove
                               </span>
                             </a>
 
                             <p class="num-2">1</p>
-                            <a href="#" class="add-btn">
+                            <a href="#" id="add-btn-2">
                                 <span class="material-icons">
                                 add
                               </span>
@@ -73,72 +73,72 @@
         </div>
 
         <div>
-            <form action="#">
+            <form action="#" onsubmit="return confirm('Do you really want to submit the form?')">
                 <h2>Contact infomation</h2>
                 <label>
               Email
-              <div class="input-block">
-                <span class="material-icons">
+              <div class=" input-block ">
+                <span class="material-icons ">
                 email
                 </span>
-              <input required type="email" autofocus placeholder="Enter your email...">
+              <input required type="email " autofocus placeholder="Enter your email... ">
               </div>
             </label>
                 <label>
               Phone
-              <div class="input-block">
-                <span class="material-icons">
+              <div class="input-block ">
+                <span class="material-icons ">
                   phone
                 </span>
-                <input required type="tel"placeholder="Enter your phone...">
+                <input required type="tel "placeholder="Enter your phone... ">
               </div>
             </label>
                 <h2>Shipping address</h2>
                 <label>
               Full name
-              <div class="input-block">
-                <span class="material-icons">
+              <div class="input-block ">
+                <span class="material-icons ">
                   account_circle
                 </span>
-                <input required type="text" placeholder="Your full name..">
+                <input required type="text " placeholder="Your full name.. ">
               </div>
             </label>
                 <label>
               Address
-              <div class="input-block">
-                <span class="material-icons">
+              <div class="input-block ">
+                <span class="material-icons ">
                   house
                 </span>
-                <input required type="text" placeholder="Your address..">
+                <input required type="text " placeholder="Your address.. ">
               </div>
             </label>
                 <label>
               City
-              <div class="input-block">
-                <span class="material-icons">
+              <div class="input-block ">
+                <span class="material-icons ">
                   location_city
                 </span>
-                <input required type="text" placeholder="Your city..">
+                <input required type="text " placeholder="Your city.. ">
               </div>
             </label>
-                <div class="row">
+                <div class="row ">
                     <label>
                 Country
-                  <div class="input-block">
-                    <span class="material-icons">
+                  <div class="input-block ">
+                    <span class="material-icons ">
                       location_city
                     </span>
-                    <select required id="country" name="country">
-                      <option value="" disabled selected>Your country..</option>
-                      <option value="vietnam">Vietnam</option>
-                      <option value="amecia">Amecia</option>
-                      <option value="thailand">Thailand</option>
+                    <select required id="country " name="country ">
+                      <option value=" " disabled selected>Your country..</option>
+                      <option value="vietnam ">Vietnam</option>
+                      <option value="amecia ">Amecia</option>
+                      <option value="thailand ">Thailand</option>
                       <option value=japan">Japan</option>
-                      <option value="korea">Korea</option>
-                      <option value="finland">Finland</option>
-                    </select>
-                </div>
-              </label>
+                <option value="korea">Korea</option>
+                <option value="finland">Finland</option>
+                </select>
+        </div>
+        </label>
                     <label>
                 Postal code
                 <div class="input-block">
@@ -159,7 +159,7 @@
     </div>
 
 
-    <footer>created by <a href="https://github.com/erik-ng-3006">erik-ng-3006</a> - devChallenges.io</footer>
+    <footer>created by <a target="_blank" href="https://github.com/erik-ng-3006">erik-ng-3006</a> - devChallenges.io</footer>
     <script src="app.js"></script>
 </body>
 
