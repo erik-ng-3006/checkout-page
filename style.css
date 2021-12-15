@@ -123,8 +123,14 @@ select {
     padding-left: .5rem;
     margin-left: 1rem;
     border-style: hidden;
-    width: 80%;
+    width: 70%;
     min-height: 4rem;
+    border-radius: 1rem;
+}
+
+input:focus,
+select:focus {
+    outline: 1px solid #828282;
 }
 
 input[type="checkbox"] {
@@ -209,9 +215,5 @@ footer a {
     }
     h2:nth-last-of-type(1) {
         margin-top: 5rem;
-    }
-    input,
-    select {
-        width: 70%;
     }
 }
